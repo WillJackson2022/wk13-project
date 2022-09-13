@@ -15,5 +15,5 @@ dept = str(input("What department are you in? "))
 char_numb = ''.join(random.SystemRandom().choice(string.ascii_lowercase + string.digits) for _ in range(10))
 print(char_numb)
 
-#Selected department and EC2 is my unique name
-print((dept + '_' + char_numb) + ' ' + 'is my EC2 name')
+#Selected department and EC2 name
+print((dept + '_' + char_numb) + ' ' + 'is your department EC2 name')
